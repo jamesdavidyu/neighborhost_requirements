@@ -12,8 +12,8 @@ export const General = () => {
           social calendar for any size of locales to consolidate discovery of
           all events within these locales. It especially keeps in mind American
           suburbs, where there is usually a shortage of things to do within a
-          walkable distance of these neighborhoods (e.g., No coffee shop? A
-          neighbor in your neighborhood could host a pop-up coffee shop). It
+          walkable distance of these neighborhoods e.g., No coffee shop? A
+          neighbor in your neighborhood could host a pop-up coffee shop. It
           harnesses the power of our inherent creativity and believes in the
           potential that if we just create more opportunities that bring people
           together to exchange ideas, anything is possible.
@@ -29,8 +29,8 @@ export const General = () => {
           </li>
           <li>
             Neighbors interact with other neighbors about these events to help
-            them make decisions about events to attend or plan (as opposed to
-            neighbors having to use other apps along with neighborhost)
+            them make decisions about events to attend or plan as opposed to
+            neighbors having to use other apps along with neighborhost.
           </li>
           <li>
             Neighbors walk out of their doors to attend/host events and meet
