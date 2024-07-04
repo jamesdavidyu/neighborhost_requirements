@@ -47,7 +47,7 @@ export const General = () => {
         <h3>Priorities</h3>
         <p>
           To acheive this flow, below are the components need to create a
-          minimum viable produt (MVP):
+          minimum viable produt MVP:
         </p>
         <ol>
           <li>
@@ -66,8 +66,9 @@ export const General = () => {
           </li>
           <li>
             <a href="#profile">
-              Profile view: neighbors should be able to see other neighbors'
-              profiles, displaying events that neighbor may be hosting.
+              Profile view: neighbors should be able to see other
+              neighbors&apos; profiles, displaying events that neighbor may be
+              hosting.
             </a>
           </li>
         </ol>
