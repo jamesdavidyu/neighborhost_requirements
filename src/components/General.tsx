@@ -42,6 +42,7 @@ export const General = () => {
           Instead of trying to keep neighbors on the app, it aims to get
           neighbors off and at events as quickly as possible.
         </p>
+        {/* brand colors */}
       </div>
       <div id="priorities">
         <h3>Priorities</h3>
