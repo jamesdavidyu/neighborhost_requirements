@@ -12,16 +12,16 @@ export const General = () => {
           social calendar for any size of locales to consolidate discovery of
           all events within these locales. It especially keeps in mind American
           suburbs, where there is usually a shortage of things to do within a
-          walkable distance of these neighborhoods e.g., No coffee shop? A
-          neighbor in your neighborhood could host a pop-up coffee shop. It
-          harnesses the power of our inherent creativity and believes in the
+          walkable distance of these neighborhoods &lpar;e.g., No coffee shop? A
+          neighbor in your neighborhood could host a pop-up coffee shop&rpar;.
+          It harnesses the power of our inherent creativity and believes in the
           potential that if we just create more opportunities that bring people
           together to exchange ideas, anything is possible.
         </p>
         <p>
-          The experience of attending and planning events in one's neighborhood
-          should be as frictionless as possible. Here is the basic flow through
-          which neighbors can use the app:
+          The experience of attending and planning events in one&apos;s
+          neighborhood should be as frictionless as possible. Here is the basic
+          flow through which neighbors can use the app:
         </p>
         <ol>
           <li>
@@ -29,11 +29,11 @@ export const General = () => {
           </li>
           <li>
             Neighbors interact with other neighbors about these events to help
-            them make decisions about events to attend or plan as opposed to
-            neighbors having to use other apps along with neighborhost.
+            them make decisions about events to attend or plan &lpar;as opposed
+            to neighbors having to use other apps along with neighborhost&rpar;.
           </li>
           <li>
-            Neighbors walk out of their doors to attend/host events and meet
+            Neighbors walk out of their doors to attend&sol;host events and meet
             other neighbors.
           </li>
         </ol>
@@ -47,7 +47,7 @@ export const General = () => {
         <h3>Priorities</h3>
         <p>
           To acheive this flow, below are the components need to create a
-          minimum viable produt MVP:
+          minimum viable produt &lpar;MVP&rpar;:
         </p>
         <ol>
           <li>
@@ -58,7 +58,7 @@ export const General = () => {
           </li>
           <li>
             <a href="#friends">
-              Friends view: neighbors should be able to send/accept friend
+              Friends view: neighbors should be able to send&sol;accept friend
               requests and interact with friends with at least one
               differentiating feature that helps neighbors organize friend
               interactions.
