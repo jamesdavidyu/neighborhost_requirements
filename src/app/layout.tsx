@@ -5,6 +5,7 @@ import {
   SignedIn,
   SignedOut,
   SignInButton,
+  UserButton,
 } from "@clerk/nextjs";
 // import "./globals.css";
 
@@ -23,12 +24,13 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body>
+        <body style={{ fontFamily: "sans-serif" }}>
           <SignedOut>
             <SignInButton />
           </SignedOut>
           <SignedIn>
             <div>
+              <UserButton />
               <h1>Requirements</h1>
             </div>
             <div>{children}</div>
