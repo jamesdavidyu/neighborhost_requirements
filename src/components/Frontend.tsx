@@ -12,6 +12,7 @@ export const Frontend = () => {
       </div>
       <div id="login">
         <h4>Login</h4>
+        {/* necessary filters (other cities) */}
       </div>
       <div id="friends">
         <h4>Friends</h4>

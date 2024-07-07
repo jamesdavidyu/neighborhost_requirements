@@ -37,19 +37,20 @@ export const General = () => {
             other neighbors.
           </li>
         </ol>
-        <p>
+        <p id="antisocial">
           Note this flow is in stark contrast with other existing social apps.
           Instead of trying to keep neighbors on the app, it aims to get
           neighbors off and at events as quickly as possible.
         </p>
         <p>
           Design-wise, the only condition is to follow the traditional Korean
-          color scheme called 오방색; these colors and in this order wherever
-          possible: <label style={{ color: "blue" }}>blue</label>,{" "}
+          color scheme called 오방색; these colors and in this order
+          where/whenver possible: <label style={{ color: "blue" }}>blue</label>,{" "}
           <label style={{ color: "red" }}>red</label>,{" "}
           <label style={{ color: "yellow" }}>yellow</label>,{" "}
           <label style={{ color: "white", background: "black" }}>white</label>,
-          and black.
+          and black. Features should be designed with function in mind over
+          form. Otherwise, all creativity is encouraged.
         </p>
       </div>
       <div id="priorities">
@@ -97,8 +98,9 @@ export const General = () => {
                 <li>
                   Logged in: All logged in neighbors will be able to see events
                   closer to them via their zipcode, customize event browsing,
-                  learn exact locations of public events, and RSVP to events.
-                  Unverified neighbors will have some limitations.
+                  and RSVP to events. Unverified neighbors will have some
+                  limitations, including being unable to learn the exact
+                  location of events.
                 </li>
                 <br />
               </ul>
@@ -121,6 +123,12 @@ export const General = () => {
               Neighbors should be able to see other neighbors&#39; profiles,
               displaying events that neighbor may be hosting.
             </label>
+          </li>
+          <br />
+          <li>
+            <a href="#analytics">Analytics</a>
+            <br />
+            <label>Neighborhost will never share/sell neighbor data.</label>
           </li>
         </ol>
         <p>

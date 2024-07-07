@@ -82,6 +82,16 @@ export const TableOfContents = () => {
               </a>
             </li>
             <li>
+              <a href="#futureEvents">
+                <h4>Events</h4>
+              </a>
+            </li>
+            <li>
+              <a href="#futureProfile">
+                <h4>Profile</h4>
+              </a>
+            </li>
+            <li>
               <a href="#chat">
                 <h4>Chat</h4>
               </a>
