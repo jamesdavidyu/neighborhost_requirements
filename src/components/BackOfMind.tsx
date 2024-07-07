@@ -44,12 +44,13 @@ export const BackOfMind = () => {
             Consulting: After launch, some time will be devoted to selling
             consulting services to neighbors, particularly but not limited to
             those running businesses in the neighborhood. Neighborhost data will
-            not be shared/sold; analytics from neighborhost's data will be used
-            to inform recommendations made to neighbors receiving consulting.
-            New data sources beyond and detached from the scope of the core
-            neighborhost platform will be developed as part of consulting and
-            these are the only data neighbors receiving consulting will have
-            access to (e.g., survey data, impact data from consulting, etc.).
+            not be shared/sold; analytics from neighborhost&#39;s data will be
+            used to inform recommendations made to neighbors receiving
+            consulting. New data sources beyond and detached from the scope of
+            the core neighborhost platform will be developed as part of
+            consulting and these are the only data neighbors receiving
+            consulting will have access to (e.g., survey data, impact data from
+            consulting, etc.).
           </li>
           <br />
           <li>
@@ -61,9 +62,9 @@ export const BackOfMind = () => {
             rather than relying on developing this programmatically,
             opportunities to use code to support this feature should be explored
             (e.g., training an OpenAI model to align responses with
-            neighborhost's curriculum). This along with consulting and allowing
-            neighbors to charge for events may be packaged up as part of a
-            subscription offering in later iterations of the app.
+            neighborhost&#39;s curriculum). This along with consulting and
+            allowing neighbors to charge for events may be packaged up as part
+            of a subscription offering in later iterations of the app.
           </li>
         </ul>
       </div>
