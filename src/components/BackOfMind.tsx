@@ -34,7 +34,7 @@ export const BackOfMind = () => {
           </li>
           <br />
           <li>
-            Cut of charging neighbor&#39;s events: Six months to a year after
+            Cut of charging neighbors&#39; events: Six months to a year after
             launch, neighborhost will take a cut of sales neighbors earn through
             events shared on neighborhost. Functionality will need to be built
             to track and process these payments.
@@ -75,6 +75,22 @@ export const BackOfMind = () => {
             Map view: Along with browsing for events via list and calendar,
             verified neighbors can use a map to customize their search for their
             next event.
+          </li>
+          <br />
+          <li>
+            Event reviews: Neighbors should be able to leave reviews of events
+            they attended. Adjacent features include checking reviews to block
+            overly negative/borderline abusive reviews from being posted.
+          </li>
+          <br />
+          <li>
+            Comments on events: Neighbors should be able to hold discussions
+            about events on the events page.
+          </li>
+          <br />
+          <li>
+            Event planning form: Event description and name placeholders should
+            rotate between example descriptions/names.
           </li>
         </ul>
       </div>

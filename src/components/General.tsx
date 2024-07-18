@@ -99,8 +99,8 @@ export const General = () => {
                   Logged in: All logged in neighbors will be able to see events
                   closer to them via their zipcode, customize event browsing,
                   and RSVP to events. Unverified neighbors will have some
-                  limitations, including being unable to learn the exact
-                  location of events.
+                  limitations, including being unable to host events, learn the
+                  exact location of events, etc.
                 </li>
                 <br />
               </ul>
