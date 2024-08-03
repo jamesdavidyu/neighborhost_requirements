@@ -7,59 +7,66 @@ export const Backend = () => {
       <div id="endpoints">
         <h3>Endpoints</h3>
         <p>
-          Prefix for API endpoints is "/api/v1". Endpoints with ".../auth"
-          require neighbors to be authenticated in order to make requests.
+          Prefix for API endpoints is &#34;/api/v1&#34;. Endpoints with
+          &#34;.../auth&#34; require neighbors to be authenticated in order to
+          make requests.
         </p>
         <ul>
           <li>Addresses</li>
           <ul>
-            <li>"/addresses/auth": GETS all addresses neighbors have saved.</li>
-            <li>"/address/auth": POSTS new address neighbors save.</li>
+            <li>
+              &#34;/addresses/auth&#34;: GETS all addresses neighbors have
+              saved.
+            </li>
+            <li>&#34;/address/auth&#34;: POSTS new address neighbors save.</li>
           </ul>
           <li>Events</li>
           <ul>
             <li>
-              "/events": GETS public events that start on and after current
-              datetime, limit 10.
+              &#34;/events&#34;: GETS public events that start on and after
+              current datetime, limit 10.
             </li>
             <li>
-              "/events/auth": GETS events that match neighbors' zipcode that
-              start on and after current datetime.
+              &#34;/events/auth&#34;: GETS events that match neighbors&#39;
+              zipcode that start on and after current datetime.
             </li>
             <li>
-              "/events/location-filter/auth": POSTS neighbors' location filter
-              choice and GETS events that match this choice.{" "}
+              &#34;/events/location-filter/auth&#34;: POSTS neighbors&#39;
+              location filter choice and GETS events that match this choice.{" "}
               <label style={{ color: "red" }}>
                 Need to edit to use search/query params.
               </label>
             </li>
             <li>
-              "/events/date-filter/auth": POSTS neighbors' date filter choice
-              and GETS events that match this choice{" "}
+              &#34;/events/date-filter/auth&#34;: POSTS neighbors&#39; date
+              filter choice and GETS events that match this choice{" "}
               <label style={{ color: "red" }}>
                 Need to edit to use search/query params.
               </label>
             </li>
             <li>
-              "/events/location-date-filter/auth": POSTS neighbors' location and
-              date filter combination choice and GETS events that match this
-              choice{" "}
+              &#34;/events/location-date-filter/auth&#34;: POSTS neighbors&#39;
+              location and date filter combination choice and GETS events that
+              match this choice{" "}
               <label style={{ color: "red" }}>
                 Need to edit to use search/query params.
               </label>
             </li>
             <li>
-              "/events/create-event/auth": POSTS new event that neighbors plan.
+              &#34;/events/create-event/auth&#34;: POSTS new event that
+              neighbors plan.
             </li>
           </ul>
           <li>Neighbors</li>
           <ul>
-            <li>"/auth/register": POSTS creation of a new neighbor.</li>
+            <li>&#34;/auth/register&#34;: POSTS creation of a new neighbor.</li>
             <li>
-              "/auth/login": POSTS neighbors' login information and returns
-              token.
+              &#34;/auth/login&#34;: POSTS neighbors&#39; login information and
+              returns token.
             </li>
-            <li>"/auth/updatepassword": PUTS new password for neighbors.</li>
+            <li>
+              &#34;/auth/updatepassword&#34;: PUTS new password for neighbors.
+            </li>
           </ul>
         </ul>
       </div>
